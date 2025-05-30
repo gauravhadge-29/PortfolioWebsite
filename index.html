@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      nav{
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        align-items: center;
+        background-color: rgb(18,18,62);
+      }
+
+      nav ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+      }
+
+      nav ul li{
+        margin: 0 23px;
+      }
+
+      .left{
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 80px 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection{
+        font-size: 3rem;
+        /* margin: 70px 0; */
+      }
+
+      /* .rightSection{
+        
+      } */
+
+      .purple{
+        color:blueviolet;
+      }
+
+      #element {
+        color: blueviolet;
+
+      }
+
+      a{
+        text-decoration: none;
+        color: white;
+      }
+
+      a:hover{
+        text-decoration: none;
+        color: rgb(98, 98, 221);
+        font-size: 1.01rem;
+        }
+
+      .leftSection span {
+        width: 100%;
+      }
+
+      .secondSection {
+        margin: auto;
+        max-width: 80vw;
+        margin-top: 40px;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Gaurav's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">  Home    </a></li>
+                <li><a href="/">  About me</a> </li>
+                <li><a href="/">  Services</a> </li>
+                <li><a href="/">  Projects</a> </li>
+                <li><a href="/">  Contact Us</a> </li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My Name is <span class="purple">Gaurav</span>
+                <div>and I am a passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection">
+          <h1>Past Experience</h1>
+        </section>
+    </main>
+  </body>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Graphic Designer.', 'Content Creator.', '&amp; Freelancer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
