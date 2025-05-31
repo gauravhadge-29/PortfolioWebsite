@@ -70,6 +70,8 @@
 
       }
 
+      
+
       a{
         text-decoration: none;
         color: white;
@@ -89,10 +91,86 @@
         margin: auto;
         max-width: 80vw;
         margin-top: 40px;
+        height: 80vh;
       }
 
+      main hr{
+        border: 0px;
+        background-color: rgb(98, 98, 221);
+        height: 1px;
+        width: 90%;
+        margin: 60px 84px;
+      }
 
+      .secondSection h1{
+        font-size: 1.9rem;
+      }
+      .grey{
+        color:grey;
+        font-size: 1.2rem;
+      }
 
+      .secondSection .box{
+        background-color: white;
+        width: 80vw;
+        margin: 76px 0px;
+        height: 2px;
+        display: flex;
+      }
+
+      .secondSection .vertical{
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 150px;
+      }
+
+      .image-top{
+       width: 40px;
+        position: relative;
+        top: -56px;
+        left: -15px;
+      }
+
+      .vertical-title{
+      position: relative;
+      top: 50px;
+      width: 150px;
+      }
+
+      .vertical-desc{
+        position: relative;
+        top: 70px;
+        width: 150px;
+        color: grey;
+        font-size: 11px;
+      }
+
+      #node{
+        width: 120px;
+        position: relative;
+        top: -64px;
+        left: -21px;
+      }
+
+      .box :nth-child(2) .vertical-title{
+        position: relative;
+        top: 25px;
+      }
+
+      .box :nth-child(2) .vertical-desc{
+        position: relative;
+        top: 45px;
+      } 
+
+      #gd{
+        width: 75px;
+      }
+
+      #free{
+        position: relative;
+        width: 58px;
+      }
     </style>
   </head>
   <body>
@@ -126,7 +204,53 @@
         <hr>
 
         <section class="secondSection">
-          <h1>Past Experience</h1>
+          <span class="grey">What I have done so far ?</span>
+          <h1>Work Experience</h1>
+          <div class="box">
+            <div class="vertical">
+              <img src="html.png" alt="" class="image-top">
+
+              <div class="vertical-title">
+                HTML Developer (2022 - Present)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+              </div>
+            </div>
+            <div class="vertical">
+              <img src="node.png" id="node" alt="" class="image-top">
+
+              <div class="vertical-title">
+                Node.js Developer (2022 - Present)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+              </div>
+            </div>
+            <div class="vertical">
+              <img src="gd (2).png" id="gd" alt="" class="image-top">
+
+              <div class="vertical-title">
+                Graphic Designer (2022 - Present)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+              </div>
+            </div>
+
+            <div class="vertical">
+              <img src="free.png" id="free" alt="" class="image-top">
+
+              <div class="vertical-title">
+                Freelancer (2022 - Present)
+              </div>
+              <div class="vertical-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+              </div>
+            </div>
+            
+            
+          </div>
         </section>
     </main>
   </body>
