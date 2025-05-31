@@ -1,272 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gaurav - Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        background-color: rgb(0, 0, 33);
-        color: white;
-        font-family: 'Poppins', sans-serif;
-      }
 
-      nav{
-        display: flex;
-        justify-content: space-around;
-        height: 80px;
-        align-items: center;
-        background-color: rgb(18,18,62);
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaurav - Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-      nav ul{
-        display: flex;
-        list-style-type: none;
-        justify-content: center;
-      }
+    body {
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
 
-      nav ul li{
-        margin: 0 23px;
-      }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      height: 80px;
+      align-items: center;
+      background-color: rgb(18, 18, 62);
+    }
 
-      .left{
-        font-size: 1.5rem;
-      }
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: center;
+    }
 
-      .firstSection {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 80px 0;
-      }
+    nav ul li {
+      margin: 0 23px;
+    }
 
-      .firstSection > div {
-        width: 30%;
-      }
+    .left {
+      font-size: 1.5rem;
+    }
 
-      .leftSection{
-        font-size: 3rem;
-        /* margin: 70px 0; */
-      }
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 80px 0;
+    }
 
-      /* .rightSection{
+    .firstSection>div {
+      width: 30%;
+    }
+
+    .leftSection {
+      font-size: 3rem;
+      /* margin: 70px 0; */
+    }
+
+    /* .rightSection{
         
       } */
 
-      .purple{
-        color:blueviolet;
-      }
+    .purple {
+      color: blueviolet;
+    }
 
-      #element {
-        color: blueviolet;
+    #element {
+      color: blueviolet;
 
-      }
+    }
 
-      
 
-      a{
-        text-decoration: none;
-        color: white;
-      }
 
-      a:hover{
-        text-decoration: none;
-        color: rgb(98, 98, 221);
-        font-size: 1.01rem;
-        }
+    a {
+      text-decoration: none;
+      color: white;
+    }
 
-      .leftSection span {
-        width: 100%;
-      }
+    a:hover {
+      text-decoration: none;
+      color: rgb(98, 98, 221);
+      font-size: 1.01rem;
+    }
 
-      .secondSection {
-        margin: auto;
-        max-width: 80vw;
-        margin-top: 40px;
-        height: 80vh;
-      }
+    .leftSection span {
+      width: 100%;
+    }
 
-      main hr{
-        border: 0px;
-        background-color: rgb(98, 98, 221);
-        height: 1px;
-        width: 90%;
-        margin: 60px 84px;
-      }
+    .secondSection {
+      margin: auto;
+      max-width: 80vw;
+      margin-top: 40px;
+      height: 80vh;
+    }
 
-      .secondSection h1{
-        font-size: 1.9rem;
-      }
-      .grey{
-        color:grey;
-        font-size: 1.2rem;
-      }
+    main hr {
+      border: 0px;
+      background-color: rgb(98, 98, 221);
+      height: 1px;
+      width: 90%;
+      margin: 60px 84px;
+    }
 
-      .secondSection .box{
-        background-color: white;
-        width: 80vw;
-        margin: 76px 0px;
-        height: 2px;
-        display: flex;
-      }
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
 
-      .secondSection .vertical{
-        height: 93px;
-        width: 1px;
-        background-color: white;
-        margin: 0px 150px;
-      }
+    .grey {
+      color: grey;
+      font-size: 1.2rem;
+    }
 
-      .image-top{
-       width: 40px;
-        position: relative;
-        top: -56px;
-        left: -15px;
-      }
+    .secondSection .box {
+      background-color: white;
+      width: 80vw;
+      margin: 76px 0px;
+      height: 2px;
+      display: flex;
+    }
 
-      .vertical-title{
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0px 150px;
+    }
+
+    .image-top {
+      width: 40px;
+      position: relative;
+      top: -56px;
+      left: -15px;
+    }
+
+    .vertical-title {
       position: relative;
       top: 50px;
       width: 150px;
-      }
+    }
 
-      .vertical-desc{
-        position: relative;
-        top: 70px;
-        width: 150px;
-        color: grey;
-        font-size: 11px;
-      }
+    .vertical-desc {
+      position: relative;
+      top: 70px;
+      width: 150px;
+      color: grey;
+      font-size: 11px;
+    }
 
-      #node{
-        width: 120px;
-        position: relative;
-        top: -64px;
-        left: -21px;
-      }
+    #node {
+      width: 120px;
+      position: relative;
+      top: -64px;
+      left: -21px;
+    }
 
-      .box :nth-child(2) .vertical-title{
-        position: relative;
-        top: 25px;
-      }
+    .box :nth-child(2) .vertical-title {
+      position: relative;
+      top: 25px;
+    }
 
-      .box :nth-child(2) .vertical-desc{
-        position: relative;
-        top: 45px;
-      } 
+    .box :nth-child(2) .vertical-desc {
+      position: relative;
+      top: 45px;
+    }
 
-      #gd{
-        width: 75px;
-      }
+    #gd {
+      width: 75px;
+    }
 
-      #free{
-        position: relative;
-        width: 58px;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="left">Gaurav's Portfolio</div>
-        <div class="right">
-            <ul>
-                <li><a href="/">  Home    </a></li>
-                <li><a href="/">  About me</a> </li>
-                <li><a href="/">  Services</a> </li>
-                <li><a href="/">  Projects</a> </li>
-                <li><a href="/">  Contact Us</a> </li>
-            </ul>
+    #free {
+      position: relative;
+      width: 58px;
+    }
+
+    footer {
+      background-color: rgb(4 4 45);
+      /* height: 233px; */
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul {
+      list-style-type: none;
+    }
+
+    .footer>div {
+      width: 200px;
+    }
+
+    footer .footer-rights {
+      text-align: center;
+      padding: 12px 0px;
+    }
+
+    .firstSection .buttons {
+      display: flex;
+      gap: 18px;
+      margin: 20px 0px;
+    }
+
+    .buttons :nth-child(1) {
+      height: 44px;
+      width: 180px;
+      border-radius: 23px;
+      background-color: blueviolet;
+      color: white;
+      font-weight: 700;
+    }
+
+
+    .buttons :nth-child(2) {
+      height: 44px;
+      width: 180px;
+      border-radius: 23px;
+      background-color: white;
+      color: blueviolet;
+      font-weight: 700;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Gaurav's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/"> Home </a></li>
+          <li><a href="/"> About me</a> </li>
+          <li><a href="/"> Services</a> </li>
+          <li><a href="/"> Projects</a> </li>
+          <li><a href="/"> Contact Us</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">Hi, My Name is <span class="purple">Gaurav</span>
+        <div>and I am a passionate</div>
+        <!-- <div>Web Developer</div> -->
+        <span id="element"></span>
+
+        <div class="buttons">
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
         </div>
-      </nav>
-    </header>
+      </div>
+      <div class="rightSection">
+        <img
+          src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png"
+          alt="">
+      </div>
+    </section>
 
-    <main>
-        <section class="firstSection">
-            <div class="leftSection">Hi, My Name is <span class="purple">Gaurav</span>
-                <div>and I am a passionate</div>
-                <!-- <div>Web Developer</div> -->
-                <span id="element"></span>
-            </div>
-            <div class="rightSection">
-                <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png" alt="">
-            </div>
-        </section>
+    <hr>
 
-        <hr>
+    <section class="secondSection">
+      <span class="grey">What I have done so far ?</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img src="html.png" alt="" class="image-top">
 
-        <section class="secondSection">
-          <span class="grey">What I have done so far ?</span>
-          <h1>Work Experience</h1>
-          <div class="box">
-            <div class="vertical">
-              <img src="html.png" alt="" class="image-top">
-
-              <div class="vertical-title">
-                HTML Developer (2022 - Present)
-              </div>
-              <div class="vertical-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
-              </div>
-            </div>
-            <div class="vertical">
-              <img src="node.png" id="node" alt="" class="image-top">
-
-              <div class="vertical-title">
-                Node.js Developer (2022 - Present)
-              </div>
-              <div class="vertical-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
-              </div>
-            </div>
-            <div class="vertical">
-              <img src="gd (2).png" id="gd" alt="" class="image-top">
-
-              <div class="vertical-title">
-                Graphic Designer (2022 - Present)
-              </div>
-              <div class="vertical-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
-              </div>
-            </div>
-
-            <div class="vertical">
-              <img src="free.png" id="free" alt="" class="image-top">
-
-              <div class="vertical-title">
-                Freelancer (2022 - Present)
-              </div>
-              <div class="vertical-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
-              </div>
-            </div>
-            
-            
+          <div class="vertical-title">
+            HTML Developer (2022 - Present)
           </div>
-        </section>
-    </main>
-  </body>
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Element to contain animated typing -->
-  <span id="element"></span>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto
+            sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="node.png" id="node" alt="" class="image-top">
 
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <div class="vertical-title">
+            Node.js Developer (2022 - Present)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto
+            sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="gd (2).png" id="gd" alt="" class="image-top">
 
-  <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Web Developer.', 'Graphic Designer.', 'Content Creator.', '&amp; Freelancer.'],
-      typeSpeed: 50,
-    });
-  </script>
+          <div class="vertical-title">
+            Graphic Designer (2022 - Present)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto
+            sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img src="free.png" id="free" alt="" class="image-top">
+
+          <div class="vertical-title">
+            Freelancer (2022 - Present)
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore assumenda nostrum pariatur, ut architecto
+            sint, odio quidem quos ea, quibusdam earum molestiae? Debitis!
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Gaurav's Developer Portfolio</h3>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      <div class="footer-third">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-rights grey">
+      Copyright &#169; gauravsportfolio.com | All Rights Reserved
+    </div>
+
+  </footer>
 </body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- Element to contain animated typing -->
+<span id="element"></span>
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Developer.', 'Graphic Designer.', 'Content Creator.', '&amp; Freelancer.'],
+    typeSpeed: 50,
+  });
+</script>
+</body>
+
 </html>
